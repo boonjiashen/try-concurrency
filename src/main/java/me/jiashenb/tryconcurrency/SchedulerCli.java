@@ -20,6 +20,7 @@ public class SchedulerCli {
   }
 
   private static void runTask() {
+    System.out.println("Current thread = " + Thread.currentThread().getName());
     System.out.println("Hello world!");
   }
 }
